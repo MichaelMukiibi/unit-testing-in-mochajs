@@ -11,5 +11,10 @@ describe('Maths operations', () => {
     // Test subtraction
     it('Should subtract two numbers correctly', () => {
         assert.strictEqual(subtract(5, 2), 3);
-    })
+    });
+
+    // Test addition of negative numbers
+    it('Should handle negative numbers in addition', () => {
+        assert.strictEqual(add(-1, 1), 0);
+    });
 })
